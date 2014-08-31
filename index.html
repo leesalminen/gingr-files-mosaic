@@ -3,17 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Gingr Report Card File Stream</title>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Signika:700' rel='stylesheet' type='text/css'>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.11.0/JSXTransformer.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.11.0/react-with-addons.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.11.0/react-with-addons.min.js"></script>
 
     <style type="text/css">
         body {
@@ -179,7 +173,7 @@
     });
 
     React.renderComponent(
-    <Items url="https://bowhaus.gingrapp.com/api/v1/report_card_files?key=eeGgdavzHtopo8FhrAoizm844" number_days="3" />,
+    <Items url="https://bowhaus.gingrapp.com/api/v1/report_card_files?key=YOUR_API_KEY_GOES_HERE" number_days="3" />,
         document.getElementById('items')
     );
 </script>
