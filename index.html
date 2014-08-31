@@ -154,9 +154,9 @@
             var asset = 
                 (
                     this.fileType(this.props.data.file_location) === 'image' ? 
-                    <img src={this.props.data.file_location} className="lazy" /> : 
+                    <img src={this.props.data.file_location} /> : 
                     <a href={this.props.data.file_location} target="_blank">
-                        <img src="http://enthusiact.net/images/play.png" className="lazy" />
+                        <img src="http://enthusiact.net/images/play.png" />
                     </a>
                 );
             return (
